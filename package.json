@@ -1,6 +1,6 @@
 {
   "name": "obsidian-vuepress",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,7 +15,10 @@
     "release:patch": "standard-version -r patch -n",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["obsidian", "vuepress"],
+  "keywords": [
+    "obsidian",
+    "vuepress"
+  ],
   "author": "Jiu Yang",
   "license": "MIT",
   "repository": {
