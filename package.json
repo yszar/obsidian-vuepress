@@ -7,7 +7,7 @@
   },
   "scripts": {
     "commit": "git cz",
-    "release": "release-it",
+    "release": "dotenv release-it",
     "release-beta": "standard-version -p release --skip.changelog false --skip.tag false",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "release:major": "standard-version -r major -n",
@@ -34,6 +34,7 @@
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "@release-it/conventional-changelog": "^5.1.1",
+    "dotenv-cli": "^6.0.0",
     "husky": "^8.0.1",
     "release-it": "^15.5.0"
   }
