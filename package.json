@@ -7,7 +7,7 @@
   },
   "scripts": {
     "commit": "git cz",
-    "release": "standard-version",
+    "release": "release-it",
     "release-beta": "standard-version -p release --skip.changelog false --skip.tag false",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "release:major": "standard-version -r major -n",
@@ -33,6 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
+    "@release-it/conventional-changelog": "^5.1.1",
     "husky": "^8.0.1"
   }
 }
