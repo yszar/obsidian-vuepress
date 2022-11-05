@@ -29,6 +29,60 @@ obsidian-vuepress
 
 ## 使用说明
 
+### 使用前提条件
+- vuepress 博客
+  - vuepress-theme-hope 主题
+- obsidian
+  - admonition 插件
+
+### 转换规则
+
+| admonition 提示块 | 转为 vuepress-theme-hope 提示块 |
+|----------------|----------------------------|
+| info           | info                       |
+| abstract       | info                       |
+| example        | info                       |
+| note           | note                       |
+| quote          | note                       |
+| tip            | tip                        |
+| success        | tip                        |
+| warning        | warning                    |
+| question       | warning                    |
+ | danger         | danger                     |
+| failure        | danger                     |
+| bug            | danger                     |
+
+
+目前只支持`admonition`插件的以下三种格式
+
+- 仅有标题
+
+![](https://static.iamjy.com/blog-images/20221105164531.png-webp)
+
+```
+> [!success] obsidian-vuepress
+> 
+```
+
+- 仅有内容，无标题
+
+![](https://static.iamjy.com/blog-images/20221105164657.png-webp)
+
+```
+> [!success]
+> I'm obsidian-vuepress
+```
+
+- 有标题有内容
+
+![](https://static.iamjy.com/blog-images/20221105164741.png-webp)
+
+```
+> [!success] obsidian-vuepress
+> I'm obsidian-vuepress
+```
+
+### 使用
 ```bash
 python obsidian-vuepress.py src
 # src 是我存放 markdown 源文件的目录

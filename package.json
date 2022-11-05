@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "tests"
   },
   "scripts": {
     "commit": "git cz",
