@@ -1,5 +1,12 @@
 
 
+## [0.0.4](https://github.com/yszar/obsidian-vuepress/compare/v0.0.3...v0.0.4) (2022-11-05)
+
+
+### 📝 Documentation | 文档
+
+* **README:** 更新使用方法文档 ([e1972ba](https://github.com/yszar/obsidian-vuepress/commit/e1972babf21ce7617dd80de9e1f3582b09c478a8))
+
 ## [0.0.3](https://github.com/yszar/obsidian-vuepress/compare/v0.0.2...v0.0.3) (2022-11-05)
 
 
