@@ -1,5 +1,12 @@
 
 
+## [0.0.3](https://github.com/yszar/obsidian-vuepress/compare/v0.0.2...v0.0.3) (2022-11-05)
+
+
+### 📦 Chores | 其他更新
+
+* 修改配置 ([240732a](https://github.com/yszar/obsidian-vuepress/commit/240732a594abf823936b30c6bda7f83f8077fd64))
+
 ## [0.0.2](https://github.com/yszar/obsidian-vuepress/compare/v0.0.1...v0.0.2) (2022-11-04)
 
 
